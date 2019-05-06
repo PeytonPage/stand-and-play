@@ -17,9 +17,18 @@ pygame.display.set_caption('Stand and Play!')
 gameDisplay.fill(red)
 pygame.display.update()
 
-running = True
+def game_select()
+     intro = True
+     while intro:
+         for event in pygame.event.get():
+             if event.type == pygame.QUIT:
+                 pygame.quit()
+                 quit()
 
-while(running):
+        gameDisplay.fill(white)
+
+
+while(math):
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
